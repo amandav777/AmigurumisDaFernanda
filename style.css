@@ -22,9 +22,6 @@ body{
     overflow-x: hidden;
 }
 
-#logo{
-    padding: 40px;
-}
 
 .opcoes{
     display: inline-flex;
@@ -54,10 +51,42 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; 
-    padding: 40px;
+}
+
+
+#img{
+    width: 300px;
 }
 
 .colecao{
     display: flex;
     justify-content: center;
+}
+
+
+.footer{
+    background-color: #B991C4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+#nome{
+    display: block;
+    width: 30%;
+   
+
+}
+#telefone{
+    display: block;
+    width: 30%; 
+}
+
+#mensagem{
+    display: block;
+    width: 30%;
+}
+
+#formularioContato{
+    padding: 40px;
 }
