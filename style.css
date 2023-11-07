@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.banner{
+   width: 100%;
+    overflow: hidden; 
+}
+
+#fotoBanner{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbar{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30%;
+    overflow-x: hidden;
+}
+
+#logo{
+    padding: 40px;
+}
+
+.opcoes{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1.9rem;
+    padding: 40px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    overflow-x: hidden;
+
+}
+
+#fotoBanner{
+    width: 100%;
+    overflow-x: hidden;}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    padding: 40px;
+}
+
+.colecao{
+    display: flex;
+    justify-content: center;
+}
