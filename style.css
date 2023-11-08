@@ -5,7 +5,7 @@ body{
 
 .banner{
    width: 100%;
-    overflow: hidden; 
+   overflow: hidden; 
 }
 
 #fotoBanner{
@@ -47,16 +47,40 @@ h1{
     text-align: center;
 }
 
+.card{
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #ececec;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .imagens{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; 
+    gap: 40px; 
 }
 
 
-#img{
-    width: 300px;
+.img{
+    width: 225px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
 }
+
+
+
+
+
+
+
 
 .colecao{
     display: flex;
@@ -68,15 +92,13 @@ h1{
     background-color: #B991C4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-
 }
 
 #nome{
     display: block;
-    width: 30%;
-   
-
+    width: 30%
 }
+
 #telefone{
     display: block;
     width: 30%; 
