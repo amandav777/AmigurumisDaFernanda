@@ -1,2 +1,0 @@
-# AmigurumisDaFernanda
-mamae
