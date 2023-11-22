@@ -17,7 +17,7 @@ RolarAbaixoInfos.addEventListener('click', function() {
 });
 
 var RolarAbaixoContato = document.getElementById('contato');
-const Contato = document.getElementById('informacoes');
+const Contato = document.getElementById('contato');
 
 RolarAbaixoContato.addEventListener('click', function() {
     // Role a página até a parte desejada.
