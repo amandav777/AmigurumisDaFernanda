@@ -8,13 +8,25 @@ RolarAbaixoGaleria.addEventListener('click', function() {
     Galeria.scrollIntoView({ behavior: 'smooth' }); // Use 'smooth' para uma rolagem suave ou 'auto' para uma rolagem instantânea.
 });
 
-var RolarAbaixoContato = document.getElementById('infos');
+var RolarAbaixoInfos = document.getElementById('infos');
+const Infos = document.getElementById('informacoes');
+
+RolarAbaixoInfos.addEventListener('click', function() {
+    // Role a página até a parte desejada.
+    Infos.scrollIntoView({ behavior: 'smooth' }); // Use 'smooth' para uma rolagem suave ou 'auto' para uma rolagem instantânea.
+});
+
+var RolarAbaixoContato = document.getElementById('contato');
 const Contato = document.getElementById('informacoes');
 
 RolarAbaixoContato.addEventListener('click', function() {
     // Role a página até a parte desejada.
     Contato.scrollIntoView({ behavior: 'smooth' }); // Use 'smooth' para uma rolagem suave ou 'auto' para uma rolagem instantânea.
 });
+
+
+
+
 
 
 // TROCADOR DE FOTOS
